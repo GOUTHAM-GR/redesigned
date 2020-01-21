@@ -15,8 +15,8 @@ body{
     left:20%;
     bottom:20%;
     right:50%
-    padding-top:15%;
-    padding-bottom: 20%;
+    padding-top:15px;
+    padding-bottom: 20px;
     animation:alternate;
     animation-name: run;
     animation-duration:5s;
@@ -25,30 +25,30 @@ body{
 }
 
 #logo{
-    width:200%;
+    width:200px;
     height:auto;
-    padding-top: 100%;
+    padding-top: 100px;
 }   
 .skill{
     height:auto;
     width:250px;
-    padding-top:0%;
-    border-top: 0%;
-    margin-top: 0%;
+    padding-top:0px;
+    border-top: 0px;
+    margin-top: 0px;
 }
 .pro{
-    width:120%;
+    width:120px;
     height:auto;
    
 }
 .cont{
-    width: 20%;
+    width: 20px;
     height: auto;
 }
 
 
 #newh{
-font-family: 'Sacramento', cursive;    border: 10%;
+font-family: 'Sacramento', cursive;    border: 10px 10px;
 }
 
 #p1{
@@ -60,7 +60,7 @@ font-family: 'Sacramento', cursive;    border: 10%;
     0%{ color:#fb9224}
     25%{color:green}
     50%{color:#ee4540}
-    
+    75%{color:black}
     100%{color:#ffcc00;}
 }
 .img2{
