@@ -1,0 +1,82 @@
+body{
+    background:#b1e8ed;
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    animation-name: check; 
+    animation-duration: 10s;
+}
+@keyframes check{
+    0%{ background:#fb9224;}
+    50%{ background:#3fc5f0;}
+    100%{background:#232323; }
+}
+.img1{
+    position:relative;
+    left:20%;
+    bottom:20%;
+    right:50%
+    padding-top:15px;
+    padding-bottom: 20px;
+    animation:alternate;
+    animation-name: run;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+#logo{
+    width:200px;
+    height:auto;
+    padding-top: 100px;
+}   
+.skill{
+    height:auto;
+    width:250px;
+    padding-top:0px;
+    border-top: 0px;
+    margin-top: 0px;
+}
+.pro{
+    width:120px;
+    height:auto;
+   
+}
+.cont{
+    width: 20px;
+    height: auto;
+}
+
+
+#newh{
+font-family: 'Sacramento', cursive;    border: 10px 10px;
+}
+
+#p1{
+    animation-name: fade;
+    animation-duration: 10s;
+    
+}
+@keyframes fade{
+    0%{ color:#fb9224}
+    25%{color:green}
+    50%{color:#ee4540}
+    75%{color:black}
+    100%{color:#ffcc00;}
+}
+.img2{
+    position: absolute;
+    left:25%;
+    animation-direction: alternate-reverse;
+    animation-name: run;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay:0.5s;
+    animation-timing-function:ease-in-out; 
+}
+@keyframes run {
+    0%{ left : 15%;}
+    100%{ left: 30%;}
+    
+}
+   
+
