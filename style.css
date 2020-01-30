@@ -5,10 +5,11 @@ body{
     animation-name: check; 
     animation-duration: 10s;
 }
-@keyframes check{
+   @keyframes check{
     0%{ background:#fb9224;}
     50%{ background:#3fc5f0;}
-    100%{background:#232323; }
+    75%{background:#232323; }
+    100%{{background:#b1e8ed; }
 }
 .img1{
     position:relative;
